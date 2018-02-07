@@ -39,3 +39,5 @@ redirect_to = ""
 # Your own data
 [extra]
 +++
+- **Goal**: Create a quine. `A quine is a non-empty computer program which takes no input and produces a copy of its own source code as its only output.`
+- **Output Format**: Output must be the source code of your solution verbatim.

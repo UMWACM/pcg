@@ -39,3 +39,5 @@ redirect_to = ""
 # Your own data
 [extra]
 +++
+- **Goal**: Create an infinite loading animation. Infinitely cycle through the characters |, /, - and \: every 0.25 seconds, overwrite the last one with the next in the sequence. Or just rewrite the whole line.
+- **Output Format**: ![](https://i.stack.imgur.com/d0hvj.gif)
