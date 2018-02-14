@@ -1,7 +1,0 @@
-
-site:
-  title: UMW ACM PCG
-  description: UMW ACM Programming Code Golf
-  base_url: https://umwacm.github.io/pcg
-posts:
-  rss: rss.xml
