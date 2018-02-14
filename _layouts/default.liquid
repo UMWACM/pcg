@@ -1,58 +1,24 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
 
-  <!-- Basic Page Needs -->
-  <meta charset="utf-8">
-{% if page.collection == "posts" %}
-  <title>{{ page.title }}</title>
-{% else %}
-  <title>UMW ACM PCG</title>
-{% endif %}
-  <meta name="description" content="">
-  <meta name="author" content="">
+  {% include head.html %}
 
-  <!-- Mobile Specific Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/sdaio.css">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/favicon.png">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout -->
-  <div class="container">
-    <div class="row" style="margin-top: 10%">
-      <div class="two columns">
-        <h2><a href="/">PCG</a></h2>
-        <p>UMW ACM</p>
-        <p>A Nice Round Of Golf</p>
-        <p><a href="/">Home</a></p>
-        <p><a href="/rss.xml">Feed</a></p>
-      </div>
-      <div class="ten columns">
-        {% if page.collection == "posts" %}
-          {% include "post.liquid" %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
-      </div>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.base_url }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul>
+          <li><a href="{{ '/about' | prepend: site.base_url }}">About</a></li>
+          <li><a href="{{ site.base_url }}/">Posts</a></li>
+        </ul>
     </div>
-    <div class="row" style="text-align: center;">
-      <div class="twelve columns">
-      </div>
-    </div>
-  </div>
-  <!-- End Document -->
+  </nav>
 
-</body>
+    <main>
+      {{ page.content }}
+    </main>
+
+  </body>
 </html>
