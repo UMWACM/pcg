@@ -16,6 +16,6 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN
   local_dir: docs
-  target_branch: gh-pages
+  target_branch: master
   on:
-    branch: master
+    branch: source
