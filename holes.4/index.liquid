@@ -1,0 +1,15 @@
+layout: default.liquid
+---
+<div >
+  <div>
+    <h2>Holes</h2>
+    {% for post in collections.holes.pages %}
+      <div>
+        <h5>{{ post.published_date | date: "%d %b %Y"}}</h5>
+        <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4>
+        {{post.content | truncatewords: 25, '...' }}
+      </div>
+      <hr />
+    {% endfor %}
+  </div>
+</div>
