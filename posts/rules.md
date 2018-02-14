@@ -2,7 +2,7 @@ slug: "rules"
 title: "Rules"
 categories:
   - Rules
-published_date: "2018-02-14 00:00:00 +0000"
+published_date: "2018-02-13 00:00:00 +0000"
 layout: default.liquid
 data:
   comments: true
