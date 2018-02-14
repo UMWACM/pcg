@@ -1,5 +1,5 @@
 source: "./"
-destination: build
+destination: docs
 include_drafts: false
 default:
   excerpt_separator: "\n\n"
@@ -18,7 +18,7 @@ posts:
 site:
   title: UMW ACM PCG
   description: UMW ACM Programming Code Golf Challenge
-  base_url: "http://sda.io"
+  base_url: "https://UMWACM.github.io/pcg"
   data: ~
 template_extensions:
   - md
