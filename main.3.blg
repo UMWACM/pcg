@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: apa.bst
+Database file #1: mainNotes.bib
+Database file #2: bib.bib
+Warning--entry type for "google" isn't style-file defined
+--line 3 of file bib.bib
+Warning--entry type for "google2" isn't style-file defined
+--line 11 of file bib.bib
+Warning--entry type for "google3" isn't style-file defined
+--line 19 of file bib.bib
+You've used 4 entries,
+            1940 wiz_defined-function locations,
+            486 strings with 3790 characters,
+and the built_in function-call counts, 1020 in all, are:
+= -- 99
+> -- 28
+< -- 4
++ -- 10
+- -- 8
+* -- 72
+:= -- 199
+add.period$ -- 9
+call.type$ -- 4
+change.case$ -- 24
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 44
+empty$ -- 69
+format.name$ -- 12
+if$ -- 186
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 20
+num.names$ -- 12
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 24
+quote$ -- 0
+skip$ -- 37
+stack$ -- 0
+substring$ -- 48
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 45
+(There were 3 warnings)

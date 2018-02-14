@@ -1,0 +1,35 @@
+% Encoding: UTF-8
+
+@Electronic{google,
+  author = {Google},
+  year   = {2018},
+  title  = {Google Search},
+  url    = {https://www.google.com/search?q=alligator+clips\&rlz=1C5CHFA_enUS719US729\&source=lnms\&tbm=isch\&sa=X\&ved=0ahUKEwi6wqzC1pzZAhWis1kKHexqB_gQ_AUICygC\&biw=1366\&bih=671#imgrc=H_aiRqtaDccaLM:},
+  editor = {Google},
+}
+
+@Electronic{google2,
+  author = {Google},
+  year   = {2018},
+  title  = {Google Search},
+  url    = {https://www.google.com/search?q=push+pins\&rlz=1C5CHFA_enUS719US729\&source=lnms\&tbm=isch\&sa=X\&ved=0ahUKEwiknLK-1pzZAhXPuVkKHRFFBxIQ_AUICygC\&biw=1366\&bih=671#imgrc=BZtbSECXCtkVnM:},
+  editor = {Google},
+}
+
+@Electronic{google3,
+  author = {Google},
+  year   = {2018},
+  title  = {Google Search},
+  url    = {https://www.google.com/search?rlz=1C5CHFA_enUS719US729\&biw=1366\&bih=671\&tbm=isch\&sa=1\&ei=2Zt_WpVIwryCB7aAteAH\&q=electrometer\&oq=electrometer\&gs_l=psy-ab.3..0l6j0i30k1j0i5i30k1l3.12374.15636.0.15859.16.12.2.2.2.0.127.956.11j1.12.0....0...1c.1.64.psy-ab..0.16.1019...0i67k1j0i10k1.0.kzZ_53grphw#imgrc=RperY623LJZt1M:},
+  editor = {Google},
+}
+
+@Book{haliday,
+  title     = {Fundamentals of Physics},
+  publisher = {Wiley},
+  year      = {2014},
+  author    = {Haliday, Resnick},
+  edition   = {10},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
