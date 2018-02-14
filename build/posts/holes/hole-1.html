@@ -4,11 +4,9 @@
 
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
-{% if page.collection == "posts" %}
-  <title>{{ page.title }}</title>
-{% else %}
-  <title>UMW ACM PCG</title>
-{% endif %}
+
+  <title>Hole 1 Par 2</title>
+
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,14 +35,24 @@
         <p>UMW ACM</p>
         <p>A Nice Round Of Golf</p>
         <p><a href="/">Home</a></p>
+        <p><a href="/holes">Holes</a></p>
         <p><a href="/rss.xml">Feed</a></p>
       </div>
       <div class="ten columns">
-        {% if page.collection == "posts" %}
-          {% include "post.liquid" %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
+        
+          <div>
+  <h4>14 Feb 2018</h4>
+  <h2>Hole 1 Par 2</h2>
+  <ul>
+<li><strong>Goal</strong>: Output the current date.</li>
+<li><strong>Output Format</strong>: <code>YYYY-MM-DD</code></li>
+<li><strong>Example Output</strong>: <code>2018-01-31</code></li>
+</ul>
+<p>Leap years must be handled and dates smaller than 10 must be padded with zeros (like example above.)</p>
+
+</div>
+
+        
       </div>
     </div>
     <div class="row" style="text-align: center;">

@@ -4,11 +4,9 @@
 
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
-{% if page.collection == "posts" %}
-  <title>{{ page.title }}</title>
-{% else %}
+
   <title>UMW ACM PCG</title>
-{% endif %}
+
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,14 +35,15 @@
         <p>UMW ACM</p>
         <p>A Nice Round Of Golf</p>
         <p><a href="/">Home</a></p>
+        <p><a href="/holes">Holes</a></p>
         <p><a href="/rss.xml">Feed</a></p>
       </div>
       <div class="ten columns">
-        {% if page.collection == "posts" %}
-          {% include "post.liquid" %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
+        
+          <h2>Welcome</h2>
+<p>Programming Code Golf Made With Love By Chad Baxter</p>
+
+        
       </div>
     </div>
     <div class="row" style="text-align: center;">

@@ -4,11 +4,9 @@
 
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
-{% if page.collection == "posts" %}
-  <title>{{ page.title }}</title>
-{% else %}
+
   <title>UMW ACM PCG</title>
-{% endif %}
+
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -40,11 +38,13 @@
         <p><a href="/rss.xml">Feed</a></p>
       </div>
       <div class="ten columns">
-        {% if page.collection == "posts" %}
-          {% include "post.liquid" %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
+        
+          <h1>404</h1>
+<p>Oops, nothing here.</p>
+<p>Sorry.</p>
+<p>Try the <a href="/">front page</a> or <a href="/archives">archives</a>.</p>
+
+        
       </div>
     </div>
     <div class="row" style="text-align: center;">

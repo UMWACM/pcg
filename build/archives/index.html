@@ -4,11 +4,9 @@
 
   <!-- Basic Page Needs -->
   <meta charset="utf-8">
-{% if page.collection == "posts" %}
-  <title>{{ page.title }}</title>
-{% else %}
+
   <title>UMW ACM PCG</title>
-{% endif %}
+
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -37,14 +35,35 @@
         <p>UMW ACM</p>
         <p>A Nice Round Of Golf</p>
         <p><a href="/">Home</a></p>
+        <p><a href="/holes">Holes</a></p>
         <p><a href="/rss.xml">Feed</a></p>
       </div>
       <div class="ten columns">
-        {% if page.collection == "posts" %}
-          {% include "post.liquid" %}
-        {% else %}
-          {{ page.content }}
-        {% endif %}
+        
+          <div >
+  <div>
+    <h2>Archives</h2>
+    
+      <div>
+        <h5>14 Feb 2018</h5>
+        <h4><a href="posts/rules.html">Rules</a></h4>
+        <p>The purpose of code golf is to create a program that solves a problem in the least amount of characters possible. A character counts as...
+      </div>
+      <hr />
+    
+      <div>
+        <h5>16 Aug 2017</h5>
+        <h4><a href="posts/2017-08-16-planck-firmeare.html">Planck Firmware</a></h4>
+        <p>As mentioned in my previous <a href="/posts/2017-08-01-planck-build.html">post</a> I have
+recently started using a <a href="https://olkb.com/planck">Planck</a> keyboard. The Planck uses Open Source
+<a href="http://qmk.fm">firmware</a> and customizing the firmware...
+      </div>
+      <hr />
+    
+  </div>
+</div>
+
+        
       </div>
     </div>
     <div class="row" style="text-align: center;">

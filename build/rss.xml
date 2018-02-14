@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>UMW ACM PCG</title><link>http://sda.io</link><description>UMW ACM Programming Code Golf Challenge</description><item><title>Rules</title><link>http://sda.io/posts/rules.html</link><description>&lt;p&gt;The purpose of code golf is to create a program that solves a problem in the least amount of characters possible. A character counts as 1 byte and includes whitespace characters. The person with the smallest number of bytes wins.&lt;/p&gt;
+</description><guid>http://sda.io/posts/rules.html</guid><pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate></item><item><title>Hole 1 Par 2</title><link>http://sda.io/posts/hole-1.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Output the current date.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Format&lt;/strong&gt;: &lt;code&gt;YYYY-MM-DD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Example Output&lt;/strong&gt;: &lt;code&gt;2018-01-31&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>http://sda.io/posts/hole-1.html</guid><pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate></item><item><title>Hole 2 Par 2</title><link>http://sda.io/posts/hole-2.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Goal&lt;/strong&gt;: Create an infinite loading animation. Infinitely cycle through the characters |, /, - and : every 0.25 seconds, overwrite the last one with the next in the sequence. Or just rewrite the whole line.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Output Format&lt;/strong&gt;: &lt;img src=&quot;https://i.stack.imgur.com/d0hvj.gif&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description><guid>http://sda.io/posts/hole-2.html</guid><pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate></item></channel></rss>
